@@ -7,7 +7,8 @@ import { Toaster } from "react-hot-toast";
 import { DefaultSeo } from "next-seo";
 
 // This should be more dynamic
-const SITE_URL = "https://du8ecttu3enax.cloudfront.net";
+// const SITE_URL = "https://du8ecttu3enax.cloudfront.net";
+const SITE_URL = "https://d2i3bjekwmgec0.cloudfront.net";
 
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
