@@ -58,4 +58,3 @@ export default {
     });
   },
 } satisfies SSTConfig;
-
