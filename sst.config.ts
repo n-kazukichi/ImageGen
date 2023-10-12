@@ -10,8 +10,8 @@ import {
 export default {
   config(_input) {
     return {
-      name: "ImageGen",
-      region: "us-east-1",
+      name: "MyImageGen",
+      region: "us-west-2",
     };
   },
   stacks(app) {
@@ -21,7 +21,7 @@ export default {
         "Certificate",
         process.env.AWS_CERTIFICATE_ARN ?? ""
       );
-      const site = new NextjsSite(stack, "ImageGenSite", {
+      const site = new NextjsSite(stack, "MyImageGenSite", {
         timeout: "1 minute",
         environment: {
           ...env,
