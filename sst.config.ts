@@ -2,6 +2,7 @@ import { type SSTConfig } from "sst";
 import { NextjsSite } from "sst/constructs";
 import { env } from "~/env.mjs";
 
+
 export default {
   config(_input) {
     return {
